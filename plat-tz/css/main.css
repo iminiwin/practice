@@ -1,0 +1,396 @@
+*{font-family: "微软雅黑"}
+ul,li{list-style: none}
+input,textarea{
+    text-indent: 5px;
+    resize: vertical;
+}
+select option:first-child{
+    color: #9e9e9e;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{display: inline-block;text-decoration: none;}
+#sidebar{
+    width: 276px;
+    background: #0a70b2;
+    height:100%;
+}
+.sidebar-brand {
+    margin-bottom:34px;
+}
+.img-circle{
+    margin-left:34px;
+    margin-top: 32px;
+}
+.intro{
+    color: white;
+    float: right;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+.intro a {
+    color: white;
+    text-decoration: none
+}
+.a{
+    color: white;
+}
+#date,#week{
+    height: 20px;
+}
+.sidebar-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.sidebar-list a:hover{
+    background-color: #3b8dc1;
+}
+.sidebar-list{
+    width: 238px;
+    padding-bottom:12px;
+    background: url("../imgs/stripe.png" ) bottom center no-repeat ;background-position-x: 24px;
+}
+/*.sidebar-list:not(.active)
+{
+    height: 64px;
+}*/
+.sublist{
+    display: none;
+}
+.active{
+    display: block;
+}
+.sublist a{
+    font-size: 14px;
+    display: block;
+    height: 48px;
+    line-height: 64px;
+}
+.sublist li{
+    height: 48px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: #3b8dc1;
+}
+.glyphicon{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+.sz{
+    background: url("../imgs/sz.png") no-repeat center;}
+.nr{
+    background: url("../imgs/nr.png") no-repeat center;}
+.qy{
+    background: url("../imgs/qy.png") no-repeat center;}
+.xm{
+    background: url("../imgs/xm.png") no-repeat center;}
+.zd{
+    background: url("../imgs/zd.png") no-repeat center;}
+.yh{
+    background: url("../imgs/yh.png") no-repeat center;}
+.glyphicon-menu-down{
+    font-size: 10px;
+    margin-right:0;
+    position: relative;
+   top:10px;
+    left: 40px;
+}
+.glyphicon-menu-right{
+    font-size: 10px;
+    position: relative;
+    top:-12px;
+    margin-right: 6px;
+}
+.page-content{
+    margin-left: 276px;
+}
+.page-header{
+    margin-top: 0; height: 125px;
+    background: #ececec;
+    margin-bottom:0;
+}
+.text-left{
+    margin-left: 24px;
+    padding-top: 42px;
+    width: 430px;
+    float: left;
+}
+.text-left p:first-child{
+    font-size: 26px;
+    color:#0a70b2;
+}
+.text-left p:last-child{
+    color: #0a70b2;
+    font-size: 12px;
+}
+.btn1{
+    float: right;
+    width: 280px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 47px;
+}
+.btn-news,.btn-letter{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.btn-news{
+    background: url("../imgs/news.png") no-repeat -1px -1px;
+}
+.btn-letter{
+    background: url("../imgs/letter.png") no-repeat -1px -1px;
+}
+.btn-sy,.btn-exit{
+    width: 74px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding: 0;
+
+}
+.btn-sy{
+    margin-left: 34px;
+    margin-right: 16px;
+    background: url("../imgs/sy.png") no-repeat;
+}
+.btn-exit{
+    background: url("../imgs/exit.png") no-repeat;
+}
+.btn .badge{
+    position: absolute;
+    border-radius: 50%;
+    left: 15px;
+    bottom:18px;
+    margin-top:-8px;
+    background: #d9534f;
+}
+.breadcrumb{
+    margin-bottom: 0;
+}
+.breadcrumb>.active{
+    color: black;
+}
+.breadcrumb li a { color: black}
+.breadcrumb>li+li:before{
+    content: ">";
+}
+.table{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.table td{
+    border: 1px solid #ccc;
+    background: #f4f5f5;
+}
+
+.table>tbody>tr>td{
+    padding:1px;
+    vertical-align: middle;
+}
+tbody  tr{
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+
+}
+.tab0 tr td:first-child{
+    width: 35%;
+    line-height: 34px;
+}
+.table>tbody>tr:first-child{
+    background: #e3eaee;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+}
+tbody  input,tbody textarea{
+    width: 100%;
+    height: 36px;
+    vertical-align: middle;
+}
+.btn-g{
+    width:90%;
+    text-align: center;
+}
+.btn-p{
+    width: 54px;
+    height: 26px;
+    margin: 5px auto 5px;
+    padding: 0;
+}
+
+/*项目管理*/
+
+.tab1>tbody>tr{
+    height: 34px;
+}
+/*奇数行*/
+.tab2 tbody tr:nth-child(odd) td { background-color: #f4f5f5; }
+/*偶数行*/
+.tab2 tbody tr:nth-child(even) td { background-color: #ffffff; }
+.tab2 td a{
+    margin-right: 26px;
+    text-decoration: none;
+}
+
+/*----*/
+.table .row .h{
+    height: 34px;
+}
+.btn2{
+    margin-left: 28px;
+    margin-top: 20px;
+}
+.btn2 .btn{
+    margin-right: 14px;
+}
+
+.tab3 a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.tab3 tbody tr:nth-child(odd) td { background-color: #f4f5f5; }
+/*偶数行*/
+.tab3 tbody tr:nth-child(even) td { background-color: #ffffff; }
+/*============*/
+.tab4 .checkbox input{
+
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+
+}
+.tab4 .checkbox label{
+    margin-right: 10px;
+}
+.tab4 input,.tab4 textarea{
+    width: 100%;
+}
+.table tr td:last-child{
+    background:white;
+}
+.page{
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}
+/**/
+input[type=checkbox]{
+    margin: 2px 0 0;
+}
+#img{
+    background: url("../imgs/background.png") no-repeat ;
+    width: 100%;
+    height: 100%;
+   background-size:100% ;
+}
+.title{
+   margin-top:16%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+}
+.group{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+}
+.group button {
+    margin-right: 15px;
+}
+/*  login */
+.login{
+    width: 472px;
+    height: 288px;
+   background: url("../imgs/login.png");
+    margin: 25% auto 10%;
+    padding-top: 30px;
+}
+.login p{
+    width: 276px;
+    height: 40px;
+    position: relative;  margin: 12px auto;
+}
+.login input{
+    text-indent:20px;
+}
+.login input,.login button{
+    width: 276px;
+    height: 40px;
+    border-radius: 5px;
+
+    display: inline-block;
+
+}
+.user,.psw{
+    width: 25px;
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    top:5px;
+    left: 6px;
+}
+.user{
+    background: url("../imgs/user.png");
+}
+.psw{
+    background: url("../imgs/psw.png");
+}
+.login a{
+    text-decoration: none;
+    color: #9e9e9e;
+}
+/**/
+
+.check .checkbox-inline{
+    padding-left: 12px;
+}
+.check .glyphicon{
+    margin-right: 10px;
+ }
+/*register*/
+
+
+.register input, .register button {
+    width: 214px;
+    height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.register {
+    width: 472px;
+    padding-bottom: 20px;
+    /*background: url(../imgs/login.png);*/
+    background: rgba(255,255,255,0.7);
+    margin: 25% auto 10%;
+    padding-top: 30px;
+    border-radius: 5px;
+
+}
+.register p,.register button{
+    margin: 12px auto;
+    width: 276px;
+    height: 40px;
+}
+.register span{
+    height: 40px;
+    line-height: 40px;
+}

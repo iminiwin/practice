@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar">
+    <ul class="nav sidebar-nav">
+        <li class="nav sidebar-brand">
+            <img src="imgs/a.jpg" alt="" class="img-circle" width="83" height="83">
+            <div class="intro">
+                <p><a href="">小丫</a><span>（企业用户）</span></p>
+                <p id="date"></p>
+                <p id="week"></p>
+            </div>
+        </li>
+        <li class=" sidebar-list  "  >
+            <a  data-toggle="collapse" href="#collapseExample" ><i class="glyphicon sz"></i>系统设置<span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="sublist  "  id="collapseExample">
+                <li ><a href="xtsz.html"><i class="glyphicon glyphicon-menu-right "></i>系统设置参数</a></li>
+            </ul>
+        </li>
+        <li class="sidebar-list ">
+            <a href="#a" data-toggle="collapse"><i class="glyphicon xm"></i>项目管理<span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="sublist " id="a">
+                <li ><a href="xmgl-xmgl.html"><i class="glyphicon glyphicon-menu-right "></i>项目分类管理</a></li>
+                <li ><a href="xmgl.html"><i class="glyphicon glyphicon-menu-right "></i>项目管理</a></li>
+            </ul>
+        </li>
+        <li  class="sidebar-list">
+            <a href="#nr" data-toggle="collapse"><i class="glyphicon nr"></i>内容管理<span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="sublist collapse in" id="nr">
+                <li ><a href="nrgl-xxjd.html"><i class="glyphicon glyphicon-menu-right "></i>形象进度管理</a></li>
+                <li ><a href="nrgl-ntgl.html"><i class="glyphicon glyphicon-menu-right "></i>难题管理（按部门）</a></li>
+                <li ><a href="nrgl.html"><i class="glyphicon glyphicon-menu-right "></i>动态综合管理</a></li>
+            </ul>
+        </li>
+        <li  class="sidebar-list">
+            <a href="#qy" data-toggle="collapse"><i class="glyphicon qy"></i>企业管理<span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="sublist" id="qy">
+                <li ><a href="qygl-fl.html"><i class="glyphicon glyphicon-menu-right "></i>企业分类管理</a></li>
+                <li ><a href="qygl.html"><i class="glyphicon glyphicon-menu-right "></i>企业管理</a></li>
+            </ul>
+        </li>
+        <li  class="sidebar-list">
+            <a href="#zd" data-toggle="collapse"><i class="glyphicon zd"></i>字典管理<span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="sublist" id="zd">
+                <li ><a href="zdgl-dqbk.html"><i class="glyphicon glyphicon-menu-right "></i>地区板块管理</a></li>
+                <li ><a href="zdgl-bmgl.html"><i class="glyphicon glyphicon-menu-right "></i>部门管理</a></li>
+                <li ><a href="zdgl-xxjd.html"><i class="glyphicon glyphicon-menu-right "></i>形象进度状态管理</a></li>
+                <li ><a href="zdgl-jdfl.html"><i class="glyphicon glyphicon-menu-right "></i>计划进度状态管理</a></li>
+            </ul>
+        </li>
+        <li   class="sidebar-list">
+            <a href="#yh" data-toggle="collapse"><i class="glyphicon yh"></i>用户管理<span class="glyphicon glyphicon-menu-down"></span></a>
+            <ul class="sublist" id="yh">
+                <li ><a href="yhgl.html"><i class="glyphicon glyphicon-menu-right "></i>用户管理</a></li>
+            </ul>
+        </li>
+
+    </ul>
+
+</nav>
+
+<!--page-content-->
+<div class="page-content">
+    <div class="page-header">
+        <div class="text-left">
+            <p>海陵区重点项目督查数字化平台</p>
+            <p>HAI LING QU ZHONG DIAN XIANG MU DU CHA SHU ZI HUA PING TAI</p>
+        </div>
+        <div class=" btn-group btn1">
+            <button type="button" class="btn btn-news " >
+
+                <span class="badge">4</span>
+            </button>
+            <button type="button" class="btn btn-letter" >
+                <span class="badge">4</span>
+            </button>
+            <button type="button" class="btn btn-sy " >
+                前台首页
+
+            </button>
+            <button type="button" class="btn btn-exit " >
+                退出登录
+            </button>
+
+        </div>
+    </div>
+    <ol class="breadcrumb">
+        您当前的位置：
+        <li><a href="#">后台</a></li>
+        <li class="active">内容管理</li>
+    </ol>
+    <div class="main ">
+        <div class="form btn2">
+
+          <!--  <button type="button" class="btn btn-primary " >
+                添加项目
+            </button>
+            <button type="button" class="btn btn-primary " >
+                管理项目
+            </button>
+            <button type="button" class="btn btn-primary " >
+                项目分类管理
+            </button>-->
+            <select class="form-control" style="width: 168px;display: inline;margin-right: 10px" >
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+            <input type="text" class="form-control" style="width: 168px;display: inline" placeholder="请输入关键字">
+            <button type="button" class="btn btn-primary " >
+                搜索
+            </button>
+        </div>
+      <form action="" method="post">
+            <table class="table tab3" >
+                <tbody class="row">
+                <tr>
+                    <td style="background: #e3eaee" class="col-md-1">序号</td>
+                    <td style="background: #e3eaee" class="col-md-3">项目名称</td>
+                    <td style="background: #e3eaee" class="col-md-2">地区</td>
+                    <td style="background: #e3eaee" class="col-md-1">形象进度</td>
+                    <td style="background: #e3eaee" class="col-md-2">计划进度</td>
+                    <td style="background: #e3eaee" class="col-md-3">操作</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>节能电池项目</td>
+                    <td>海陵工业园区</td>
+                    <td>竣工投产</td>
+                    <td>进展较快项目</td>
+                    <td>
+                        <a href="">修 改</a>
+                        <a href="">删 除</a>
+                        <a href="">进度管理</a>
+
+                    </td>
+                </tr>
+                </tbody>
+                </table>
+
+        </form>
+
+        <nav aria-label="Page navigation" class="page">
+            <ul class="pagination">
+                <li >
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="active"><a href="#" >1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li >
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+<script>
+
+</script>
+</body>
+</html>
